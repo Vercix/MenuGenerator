@@ -1,0 +1,22 @@
+.menuItemContainer{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.5em;
+}
+.header{
+   display: flex;
+   flex-direction: row;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.menuItemDots{
+   border: none;
+   align-self: center;
+   border-bottom: 4px dotted #D5D5D5AA;
+   flex-grow: 1;
+   height: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+}

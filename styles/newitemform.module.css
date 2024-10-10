@@ -1,0 +1,39 @@
+
+.main{
+   display: block;
+   
+}
+
+.inputContainer{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 1em 0;
+   align-items: center;
+   
+}
+
+.inputLabel {
+   
+   margin: 1em 0;
+}
+
+.inputField {
+   margin: 0 1em;
+   padding : 0.25em;
+   font-size: 14px;
+   height: 60px;
+}
+
+.descriptionField{
+   min-width: 800px;
+   min-height: 100px;
+   margin: 0 1em;
+   padding : 0.25em;
+   font-size: 14px;
+   vertical-align: middle;
+}
+
+.addItemButton{
+   padding: 1em;
+   font-weight: bold;
+}

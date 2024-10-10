@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+.mainPDFContent{
+   width: 794px;
+   max-height: 1124px;
+}
+
+.container{
+   color: #D5D5D5AA;
+   background-color: #1b1b1b;
+  
+   /* box-shadow: -1px 2px 2px 0px #555, inset 0 0 20px 0 #555; */
+   min-height: 29mm;
+   display: flex;
+   flex-direction: column;
+   width: 794px;
+   font-family: "Walter Turncoat", cursive;
+
+   border-radius: 15px;
+   line-height: normal;
+   margin: auto;
+   
+}
+
+.centerBody {
+   display: flex;
+   flex-grow: 1;
+}
+
+.borderAffix{
+   display: flex;
+   flex-direction: row;
+}
+
+.borderCorner {
+   background: url("/images/border_corner.png");
+   background-size: 9px 9px;
+   background-repeat: no-repeat;
+   background-position: center;
+   image-rendering: crisp-edges;
+   height: 9px;
+   width: 9px;
+}
+
+.borderVertical {
+   /* padding: 5em; */
+   /* background-color: aqua; */
+   background: url("/images/border_side_vertical.png");
+   background-size: 9px 63px;
+   width: 9px;
+   min-width: 9px;
+   height: auto;
+}
+
+
+.border {
+   background: url("/images/border_side.png");
+   background-size: 63px 9px;
+   height: 9px;
+   flex-grow: 1;
+}
+
+
+.borderWoodAffix{
+   display: flex;
+   flex-direction: row;
+}
+
+.borderWoodCorner {
+   background-size: 30px 30px;
+   background-repeat: no-repeat;
+   background-position: center;
+   image-rendering: crisp-edges;
+   height: 30px;
+   width: 30px;
+}
+
+.borderWoodCornerTL {
+   background: url("/images/wood_border_corner_tl.png");
+}
+.borderWoodCornerTR {
+   background: url("/images/wood_border_corner_tr.png");
+}
+.borderWoodCornerBL {
+   background: url("/images/wood_border_corner_bl.png");
+}
+.borderWoodCornerBR {
+   background: url("/images/wood_border_corner_br.png");
+}
+
+.borderWoodVertical {
+   /* padding: 5em; */
+   /* background-color: aqua; */
+   background: url("/images/wood_border_side_vertical.png");
+   background-size: 30px 512px;
+   width: 30px;
+   min-width: 30px;
+   height: auto;
+   background-color: aliceblue;
+   background-repeat: round;
+   
+}
+
+.borderWood {
+   background: url("/images/wood_border_side.png");
+   background-size: 512px 30px;
+   height: 30px;
+   flex-grow: 1;
+   background-repeat: round;
+}
+
+.styledPDFDiv{
+   flex-grow: 1;
+   padding: 1em;
+}
+
+
+.outterBorder {
+   min-height: 1124px;
+   max-height: 1124px;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+}
+
+.menuMain{
+   padding: 8px;
+   flex-grow:  1;
+   background: url("/images/background.jpg");
+   background-size: 800px 800px;
+   
+}
+
+.centerBody{
+   display: flex;
+}
+
+.menuHeader {
+   font-size: 48px;
+   width: 100%;
+   text-align: center;
+}
